@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-image: url("images/terre1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    background-color: #101010;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    border-color: black;
+    border-radius: 100%;
+    border-width: 8px;
+    object-fit: cover;
+}
